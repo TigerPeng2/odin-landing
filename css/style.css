@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 
 body {
@@ -21,6 +20,7 @@ a {
     flex-direction: column;
     background-color: #1f2937;
     justify-content: space-between;
+    color: white;
 }
 
 .header-top {
@@ -31,6 +31,7 @@ a {
 }
 
 .intro-img {
+    flex: 1 1 auto;
     width: 50%;
     height: auto;
 }
@@ -39,7 +40,11 @@ a {
     display: flex;
     margin-bottom: 100px;
     gap: 12px;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.hero-text {
+    margin: 4px 0;
 }
 
 .header>* {
@@ -49,4 +54,11 @@ a {
 
 .intro-text {
     flex: 0 1 300px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 20px;
 }
