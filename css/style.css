@@ -62,3 +62,49 @@ button {
     border: none;
     padding: 4px 20px;
 }
+
+.char-img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+.quotes-container {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 80px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: smaller;
+}
+
+.body-header {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#cersei, #tyrion {
+    border-color: gold;
+}
+
+#littlefinger {
+    border-color: forestgreen;
+}
+
+#arya {
+    border-color: gray;
+}
