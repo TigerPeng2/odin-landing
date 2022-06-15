@@ -9,9 +9,13 @@ body {
     margin: 0;
 }
 
-.header-top, .header-bottom, .quotes-container, .main-quote, .author {
+.header-top, .header-bottom, .quotes-container, .main-quote, .author, .signup-block {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.header, .footer {
+    background-color: #1f2937;
 }
 
 a {
@@ -23,7 +27,6 @@ a {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
     justify-content: space-between;
     color: white;
 }
@@ -125,4 +128,43 @@ button {
     text-align: right;
     margin-top: 0;
     margin-bottom: 80px;
+}
+
+.signup-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px 0px;
+}
+
+.signup-button {
+    border-radius: 4px;
+    border: 2px solid white;
+    font-size: smaller;
+    color: white;
+    margin-right: 60px;
+}
+
+.signup-text {
+    margin-left: 60px;
+}
+
+.signup-header {
+    margin-bottom: 0;
+}
+
+.signup-expl {
+    margin-top: 0;
+    font-size: smaller;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
 }
