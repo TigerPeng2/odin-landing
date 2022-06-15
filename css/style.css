@@ -5,8 +5,13 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     margin: 0;
+}
+
+.header-top, .header-bottom, .quotes-container, .main-quote, .author {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 a {
@@ -27,7 +32,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .intro-img {
@@ -38,18 +43,13 @@ a {
 
 .header-bottom {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     gap: 12px;
     align-items: flex-start;
 }
 
 .hero-text {
     margin: 4px 0;
-}
-
-.header>* {
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .intro-text {
@@ -76,8 +76,6 @@ button {
     gap: 12px;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-bottom: 80px;
 }
 
@@ -107,4 +105,24 @@ button {
 
 #arya {
     border-color: gray;
+}
+
+.main-quote-container {
+    background-color: #E5E7EB;
+}
+
+.main-quote {
+    margin-top: 80px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.author {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 80px;
 }
